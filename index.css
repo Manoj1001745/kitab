@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+.i1{
+    border-radius: 0px !important;
+}
+.border-none{
+    border: none;
+}
+.col-3 ul li a{
+    color: black;
+   
+    text-decoration: none;
+    display: flex;
+}
+ul li a{
+    list-style: none !important;
+    display: flex;
+}
+.flex{
+    display: flex !important;
+}
+li{
+    list-style: none !important;
+}
+.box{
+    position: relative; height: 270px;
+    overflow: hidden;
+  }
+  .box-img{
+    height: 325px;
+    overflow: hidden;
+  }
+  .box-c{
+    transition: 0.9s; background-color: white;
+  }
+  .box:hover .box-c{
+    transform: translateY(-60px);
+  }
+  .box-img img{
+    transition: 0.9s;
+  }
+  .box:hover img{
+    transform: scale(1.1);
+  }
+.thumb:hover img{
+  transform: scale(1.1);
+}
+
+.mySwiper11 #swiper-slide1{
+  border-radius: 50%;
+  box-sizing: border-box;
+  object-fit: cover;
+  overflow: hidden;
+}
+.img-1{
+    height: 220px;
+}
+.bbl{
+ 
+    margin: 3px 20px 0px 20px;
+}
+.car{
+    transition: 0.9s;
+}
+a:hover img {
+    transform: scale(1.1);
+}
+.thumb:hover img{
+    transform: scale(1.1);
+  }
+  .text-1{
+    color: white;
+  }
+  #new{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .icon-image{
+    height: 300px;
+    width: 300px;
+  }
+  
+ 
